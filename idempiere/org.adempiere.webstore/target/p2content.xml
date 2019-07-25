@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.adempiere.webstore' version='6.2.0.201907150332' generation='2'>
+    <update id='org.adempiere.webstore' range='[0.0.0,6.2.0.201907150332)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='iDempiere Web Store'/>
+      <property name='org.eclipse.equinox.p2.provider' value='iDempiere Community'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.webstore'/>
+      <property name='maven-version' value='6.2.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.webstore' version='6.2.0.201907150332'/>
+      <provided namespace='osgi.bundle' name='org.adempiere.webstore' version='6.2.0.201907150332'/>
+      <provided namespace='osgi.identity' name='org.adempiere.webstore' version='6.2.0.201907150332'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='76'>
+      <required namespace='osgi.bundle' name='org.adempiere.base' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.adempiere.report.jasper.webapp' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='3.15.0'/>
+      <required namespace='java.package' name='javax.servlet' range='3.0.0'/>
+      <required namespace='java.package' name='javax.servlet.http' range='3.0.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp' range='2.2.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp.el' range='2.2.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp.jstl.core' range='1.2.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp.jstl.fmt' range='1.2.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp.jstl.sql' range='1.2.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp.jstl.tlv' range='1.2.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp.resources' range='2.2.0'/>
+      <required namespace='java.package' name='javax.servlet.jsp.tagext' range='2.1.0'/>
+      <required namespace='java.package' name='javax.servlet.resources' range='3.0.0'/>
+      <required namespace='java.package' name='org.apache.ecs' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.ecs.filter' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.ecs.storage' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.ecs.xhtml' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.ecs.xml' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.functions' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.lang.jstl' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.lang.jstl.parser' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.lang.support' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.resources' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.common.core' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.common.fmt' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.common.sql' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.common.xml' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.el.core' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.el.fmt' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.el.sql' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.el.xml' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.rt.core' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.rt.fmt' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.rt.sql' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tag.rt.xml' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tei' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.taglibs.standard.tlv' range='1.2.0'/>
+      <required namespace='java.package' name='org.apache.xerces.dom' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.dom.events' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.dom3.as' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.dtd' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.dtd.models' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.dv' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.dv.dtd' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.dv.util' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.dv.xs' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.io' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.msg' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.validation' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xpath' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xpath.regex' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xs' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xs.identity' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xs.models' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xs.opti' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xs.traversers' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.impl.xs.util' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.jaxp' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.jaxp.datatype' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.jaxp.validation' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.parsers' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.util' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.xinclude' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.xni' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.xni.grammars' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.xni.parser' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.xpointer' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.xs' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xerces.xs.datatypes' range='2.9.0'/>
+      <required namespace='java.package' name='org.apache.xml.serialize' range='2.9.0'/>
+      <required namespace='java.package' name='org.osgi.framework' range='1.7.0'/>
+      <required namespace='java.package' name='org.osgi.service.http' range='1.2.1'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version&gt;=1.11))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.adempiere.webstore' version='6.2.0.201907150332'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.adempiere.webstore;singleton:=true&#xA;Bundle-Version: 6.2.0.201907150332&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.adempiere.webstore.source' version='6.2.0.201907150332' singleton='false'>
+    <update id='org.adempiere.webstore.source' range='[0.0.0,6.2.0.201907150332)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='iDempiere Community'/>
+      <property name='df_LT.bundleName' value='iDempiere Web Store Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.webstore'/>
+      <property name='maven-version' value='6.2.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.webstore.source' version='6.2.0.201907150332'/>
+      <provided namespace='osgi.bundle' name='org.adempiere.webstore.source' version='6.2.0.201907150332'/>
+      <provided namespace='osgi.identity' name='org.adempiere.webstore.source' version='6.2.0.201907150332'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.adempiere.webstore.source' version='6.2.0.201907150332'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.adempiere.webstore.source&#xA;Bundle-Version: 6.2.0.201907150332&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

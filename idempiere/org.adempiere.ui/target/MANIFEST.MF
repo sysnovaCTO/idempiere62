@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: iDempiere UI base
+Bundle-SymbolicName: org.adempiere.ui;singleton:=true
+Bundle-Version: 6.2.0.201907150332
+Comment: Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.11))"
+Require-Bundle: org.adempiere.base;bundle-version="0.0.0",org.apache.ser
+ vicemix.bundles.xerces;bundle-version="0.0.0",org.eclipse.equinox.app;b
+ undle-version="0.0.0"
+Export-Package: org.compiere.apps,org.compiere.apps.form,org.compiere.ap
+ ps.wf,org.compiere.grid,org.compiere.grid.ed,org.compiere.css,org.compi
+ ere.install,org.compiere.minigrid,org.compiere.print,org.netbeans.api.v
+ isual.action,org.netbeans.api.visual.anchor,org.netbeans.api.visual.bor
+ der,org.netbeans.api.visual.graph,org.netbeans.api.visual.graph.layout,
+ org.netbeans.api.visual.layout,org.netbeans.api.visual.model,org.netbea
+ ns.api.visual.router,org.netbeans.api.visual.widget
+Bundle-ClassPath: .,lib/org-netbeans-api-visual.jar,lib/org-openide-util
+ .jar,lib/org-openide-util-lookup.jar
+Automatic-Module-Name: org.adempiere.ui
+Bundle-Vendor: iDempiere Community
+
