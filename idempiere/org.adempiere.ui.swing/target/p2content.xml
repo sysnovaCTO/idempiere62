@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.adempiere.ui.swing' version='6.2.0.201907150332' generation='2'>
+    <update id='org.adempiere.ui.swing' range='[0.0.0,6.2.0.201907150332)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='iDempiere Swing Client'/>
+      <property name='org.eclipse.equinox.p2.provider' value='iDempiere Community'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.ui.swing'/>
+      <property name='maven-version' value='6.2.0-SNAPSHOT'/>
+    </properties>
+    <provides size='64'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.ui.swing' version='6.2.0.201907150332'/>
+      <provided namespace='osgi.bundle' name='org.adempiere.ui.swing' version='6.2.0.201907150332'/>
+      <provided namespace='java.package' name='com.jgoodies.looks' version='0.0.0'/>
+      <provided namespace='java.package' name='com.jgoodies.looks.common' version='0.0.0'/>
+      <provided namespace='java.package' name='com.jgoodies.looks.plastic' version='0.0.0'/>
+      <provided namespace='java.package' name='com.jgoodies.looks.plastic.theme' version='0.0.0'/>
+      <provided namespace='java.package' name='com.jgoodies.looks.windows' version='0.0.0'/>
+      <provided namespace='java.package' name='de.schaeffer.compiere.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='net.miginfocom.layout' version='0.0.0'/>
+      <provided namespace='java.package' name='net.miginfocom.swing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.adempiere.apps.graph' version='0.0.0'/>
+      <provided namespace='java.package' name='org.adempiere.pdf.viewer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.adempiere.plaf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.adempiere.ui.swing.factory' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.acct' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.apps' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.apps.form' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.apps.search' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.apps.wf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.grid' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.grid.ed' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.grid.tree' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.images' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.install' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.minigrid' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.plaf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.pos' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.print' version='0.0.0'/>
+      <provided namespace='java.package' name='org.compiere.swing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eevolution.form' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.beans' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.action' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.autocomplete' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.border' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.calendar' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.color' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.combobox' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.decorator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.error' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.event' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.geom' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.graphics' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.hyperlink' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.icon' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.image' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.multislider' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.multisplitpane' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.painter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.painter.effects' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.plaf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.renderer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.rollover' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.search' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.sort' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.table' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.tips' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.tree' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.treetable' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jdesktop.swingx.util' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.adempiere.ui.swing' version='6.2.0.201907150332'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='49'>
+      <required namespace='osgi.bundle' name='org.adempiere.base' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.adempiere.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.restlet' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.restlet.ext.servlet' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jfree.chart-osgi' range='1.0.19'/>
+      <required namespace='java.package' name='groovy.beans' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.cli' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.grape' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.inspect' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.inspect.swingui' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.io' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.jmx.builder' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.json' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.lang' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.model' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.security' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.servlet' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.sql' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.swing' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.swing.binding' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.swing.factory' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.swing.impl' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.time' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.transform' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.transform.builder' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.transform.options' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.transform.stc' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.ui' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.ui.icons' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.ui.text' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.ui.view' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.util' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.util.logging' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.util.slurpersupport' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.xml' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.xml.dom' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.xml.jaxb' range='2.5.3'/>
+      <required namespace='java.package' name='groovy.xml.streamingmarkupsupport' range='2.5.3'/>
+      <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+      <required namespace='java.package' name='net.sf.jasperreports.engine' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.ecs' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.ecs.xhtml' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.poi.hssf.usermodel' range='0.0.0'/>
+      <required namespace='java.package' name='org.compiere.css' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.core.runtime' range='3.4.0'/>
+      <required namespace='java.package' name='org.eclipse.equinox.app' range='0.0.0'/>
+      <required namespace='java.package' name='org.jfree.ui' range='1.0.23'/>
+      <required namespace='java.package' name='org.osgi.framework' range='1.5.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version&gt;=1.11))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.adempiere.ui.swing' version='6.2.0.201907150332'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.adempiere.ui.swing;singleton:=true&#xA;Bundle-Version: 6.2.0.201907150332&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.adempiere.ui.swing.source' version='6.2.0.201907150332' singleton='false'>
+    <update id='org.adempiere.ui.swing.source' range='[0.0.0,6.2.0.201907150332)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='iDempiere Community'/>
+      <property name='df_LT.bundleName' value='iDempiere Swing Client Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.ui.swing'/>
+      <property name='maven-version' value='6.2.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.ui.swing.source' version='6.2.0.201907150332'/>
+      <provided namespace='osgi.bundle' name='org.adempiere.ui.swing.source' version='6.2.0.201907150332'/>
+      <provided namespace='osgi.identity' name='org.adempiere.ui.swing.source' version='6.2.0.201907150332'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.adempiere.ui.swing.source' version='6.2.0.201907150332'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.adempiere.ui.swing.source&#xA;Bundle-Version: 6.2.0.201907150332&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

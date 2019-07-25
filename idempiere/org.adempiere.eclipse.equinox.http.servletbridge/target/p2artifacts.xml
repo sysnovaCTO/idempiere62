@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.adempiere.eclipse.equinox.http.servletbridge' version='6.2.0.201907150332'>
+    <properties size='5'>
+      <property name='artifact.size' value='3694'/>
+      <property name='download.size' value='3694'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.eclipse.equinox.http.servletbridge'/>
+      <property name='maven-version' value='6.2.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.adempiere.eclipse.equinox.http.servletbridge.source' version='6.2.0.201907150332'>
+    <properties size='6'>
+      <property name='artifact.size' value='2329'/>
+      <property name='download.size' value='2329'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.eclipse.equinox.http.servletbridge'/>
+      <property name='maven-version' value='6.2.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>
